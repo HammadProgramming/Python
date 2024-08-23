@@ -1,0 +1,18 @@
+
+print("Welcome to rollercoater")
+
+vheight = int(input('Enter your height : '))
+if vheight >= 120:
+    print("you can ride")
+
+
+    vnum = int(input('Enter your age : '))
+    if vnum >= 10 and vnum <= 15 :
+       print('you have to pay 50 rs')
+    elif vnum >= 16 and vnum <= 25 :
+       print('You have to pay 100 rs')
+    elif vnum >= 25 and vnum <= 100:
+       print('you have to pay 150 rs')
+    else:
+       print('You cant ride !')
+ 
